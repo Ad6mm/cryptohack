@@ -1,4 +1,4 @@
-from operator import xor
+
 
 def bin_to_dev(bin):
     result = 0
