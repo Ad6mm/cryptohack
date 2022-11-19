@@ -51,9 +51,7 @@ for x in range(100):
     print("Decoded value: ")
     print(decoded)
 
-    to_send = {
-        "decoded": decoded
-    }
+    to_send = {"decoded": decoded}
 
     print("To send: ")
     print(to_send)
