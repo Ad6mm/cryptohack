@@ -4,7 +4,6 @@ from Crypto.Util.Padding import pad, unpad
 
 flag = b"crypto{"
 
-# flag length is 26
 
 def response(byte_string):
 	url = "http://aes.cryptohack.org/ecb_oracle/encrypt/"
