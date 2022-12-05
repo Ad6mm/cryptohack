@@ -23,3 +23,5 @@ flag = encryptedFlag[16:]
 plaintext = b'\x00' * len(flag)
 
 print(xor(encrypt(plaintext, iv), flag))
+
+AES.new()
