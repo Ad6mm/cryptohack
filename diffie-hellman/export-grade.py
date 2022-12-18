@@ -19,7 +19,7 @@ def json_send(hsh):
     request = json.dumps(hsh).encode()
     #print(request)
     r.sendline(request)
-
+    
 r.recvuntil("Send to Bob: ")
 json_send({"supported": ["DH64"]})
 
