@@ -30,7 +30,7 @@ g = int(res["g"], 16)
 A = int(res["A"], 16)
     
 r.recvuntil("Intercepted from Bob: ")
-res = json_recv()
+json_recv()
 
 r.recvuntil("Intercepted from Alice: ")
 res = json_recv()
