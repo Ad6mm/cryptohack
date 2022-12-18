@@ -1,0 +1,13 @@
+from Crypto.Util.number import *
+
+p = 28151
+
+for i in range(1, p):
+	chk = 1
+	for j in range(1, p - 1):
+		if pow(i, j, p) == 1:
+			chk = 0
+			break
+	if chk == 1:
+		print(i)
+		break
